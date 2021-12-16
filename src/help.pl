@@ -1,0 +1,21 @@
+/* Rules */
+help:-
+    write('|----------------------------COMMAND LIST----------------------------|\n'),
+    write('| map      : menampilkan peta                                        |\n'),
+    write('| house    : menampilkan apa yang bisa kamu lakukan di rumah         |\n'),
+    write('| market   : menampilkan apa yang bisa kamu lakukan di market        |\n'),
+    write('| status   : menampilkan kondisimu terkini                           |\n'),
+    write('| w        : bergerak ke arah utara sejauh 1 langkah                 |\n'),
+    write('| s        : bergerak ke arah selatan  sejauh 1 langkah              |\n'),
+    write('| d        : bergerak ke arah timur sejauh 1 langkah                 |\n'),
+    write('| a        : bergerak ke arah barat sejauh 1 langkah                 |\n'),
+    write('| help     : menampilkan bantuan apa yang dapat dilakukanmu          |\n'),
+    write('| inventory: menampilkan item yang kamu miliki                       |\n'),
+    write('| throwItem: membuang item yang kamu miliki                          |\n'),
+    write('| fish     : memancing ikan di dekat air                             |\n'),
+    write('| ranch    : beternak di ranch                                       |\n'),
+    write('| dig      : menggali                                                |\n'),
+    write('| plant    : menanam                                                 |\n'),
+    write('| harvest  : memanen                                                 |\n'),
+    write('| quest    : menampilkan quest yang kamu miliki                      |\n'),
+    write('|--------------------------------------------------------------------|\n').
